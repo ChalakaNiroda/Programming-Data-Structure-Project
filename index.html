@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDSA Project</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="stack.js"></script>
+    <script src="script.js" type="module"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light " style="font-size: 25px; font-family: sans-serif; background-color: whitesmoke;">
+        PDSA Project
+    </nav>
+    <div id="container" >
+        <div class="text_box" style="padding: 60px">
+            Type in the box below
+            <br><br><br>
+            <textarea class="form-control" id="comment" style="height: 50%; width: 100%;">
+            </textarea>
+        </div>
+        <div class="text_box" style="overflow-y: scroll">
+            <br>
+            <br>
+            <span id="temptext" style="width: 100%; text-align: center; font-size: x-large">
+                operations will be shown here !
+            </span>
+        </div>
+    </div>
+
+    <div>
+        <br>
+        <button type="button" class="btn btn-success" id="undo">&nbsp;&nbsp;&nbsp;Undo&nbsp;&nbsp;&nbsp;</button>
+        <br>
+        <button type="button" class="btn btn-danger" id="clear">Clear Box</button>
+    </div>
+</body>
+
+</html>
